@@ -96,7 +96,7 @@ const Hero = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition-all duration-300" />
         </Link>
         <Link
-          href="/GosheKarovCV.pdf"
+          href="/GosheKarovCv .pdf"
           className="bg-white text-gray-700 px-7 py-3 flex items-center gap-2 group rounded-full border border-black/10 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition-all duration-300"
           download={true}
         >
