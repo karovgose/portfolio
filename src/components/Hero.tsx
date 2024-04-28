@@ -97,6 +97,8 @@ const Hero = () => {
         </Link>
         <Link
           href="/GosheKarovCv .pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-white text-gray-700 px-7 py-3 flex items-center gap-2 group rounded-full border border-black/10 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition-all duration-300"
           download={true}
         >
