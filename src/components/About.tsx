@@ -27,7 +27,7 @@ const About = () => {
     image = '',
   } = aboutData.length > 0 ? aboutData[0] : {};
 
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView('About', 0.33);
   const imageUrl = image ? urlFor(image).url() : '/about.png';
   return (
     <motion.section

@@ -51,7 +51,7 @@ const Project = ({
           </p>
           {showLinks && (
             <motion.div
-              className="flex items-center justify-center gap-4 absolute z-10 top-0 left-0 bottom-0 right-0 w-full h-full group-hover:bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300:"
+              className="flex items-center justify-center gap-4 absolute z-10 top-0 left-0 bottom-0 right-0 w-full h-full group-hover:bg-black/50 dark:group-hover:bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300:"
               whileHover={{ opacity: [0, 1] }}
               transition={{
                 duration: 0.25,
